@@ -25,9 +25,35 @@ void main() {
     // ada yang tanpa nilai balik
 
     //Fungsi tanpa nilai balik
-    void hitung(int a1,int a2,int a3){
-        num hasil = a1 + a2 + a3;
-        print ('ini hasil $hasil');
-    }
-    hitung(100, 200, 300);
+    // void hitung(int a1,int? a2,int? a3){
+    //     num hasil = a1 + (a2 ?? 0) + (a3 ?? 0);
+    //     print ('ini hasil $hasil');
+    // }
+    // hitung(100, 200, 300);
+    // hitung(100, 200, null);
+    // hitung(100, null, null);
+
+    //Fungsi yang ada nilai balik
+    // String cetaknilailengkap(String nd, String? nb){
+    //     var namalengkap = nd + ' ' + (nb ?? '');
+    //     return namalengkap;
+    // }
+
+    // String nama = cetaknilailengkap('Wendy', 'Kurniawan');
+    // String nama1 = cetaknilailengkap('Wendy', null);
+    // print(nama);
+    // print(nama1);
+
+    // num hitung(int a1, int a2, int a3){
+    //     num hasil = a1 + (a2) + (a3);
+    //     return hasil;
+    // }
+    // num nilai = hitung(100, 200, 300);
+    // print(nilai);
+
+    // late String nama;
+    // nama = 'Wendy';
+    // print(nama);
+
+    
 }
