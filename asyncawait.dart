@@ -55,5 +55,19 @@ void main() {
     // nama = 'Wendy';
     // print(nama);
 
-    
+    stdout.writeln('masukkan nama:');
+    String nama = stdin.readLineSync()!;
+    stdout.writeln('masukkan umur:');
+    int umur = int.parse(stdin.readLineSync()!);
+    stdout.writeln('masukkan berat:');
+    num berat = num.parse(stdin.readLineSync()!);
+
+    List<Map> cetak(String nama, int umur, num berat) {
+        return [
+            {'nama': nama, 'umur': umur, 'berat': berat}
+        ];
+    }
+    var nilai = cetak(nama, umur, berat);
+    print(nilai);
+
 }
